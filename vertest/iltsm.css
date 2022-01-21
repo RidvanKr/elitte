@@ -1,0 +1,274 @@
+body {
+
+background-color: #fff;
+
+}
+
+.menu ul {
+  list-style-type: none;
+
+  position: absolute;
+
+  overflow: hidden;
+
+  margin-top: 10px;
+
+  margin-right: 25px;
+
+  padding: 0;
+
+  right: 0px;
+
+  width: 60%;
+
+  background: transparent;
+}
+.menu ul li {
+  float: right;
+}
+
+.menu ul li a {
+  display: block;
+
+  padding: 6px 8px;
+
+  background: transparent;
+
+  border-radius: 10px;
+
+  color:rgb(0, 0, 0);
+
+  text-decoration:none;
+
+  font-family: 'Roboto Mono', monospace;
+
+  font-size: 15px;
+}
+.menu ul li a:hover{
+  background-color: #d3d3d3;
+}
+
+@font-face {
+  font-family: 'Aldrich';
+  src: url(Aldrich-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Readex Pro';
+  src: url(ReadexPro-Medium.ttf);
+}
+
+.logo b {
+  position: absolute;
+
+  font-family: 'Aldrich', sans-serif;
+
+  font-size: 25px;
+
+  margin-top: 10px;
+
+  margin-left: 15px;
+}
+
+.panel {
+    
+  position: absolute;
+  
+  margin: auto;
+ 
+  border: 1px #00395c solid;
+  
+  background-color: white;
+  
+  margin-top: 150px;
+  
+  margin-left: 27.5%;
+  
+  border-radius: 10px;
+  
+  width: 45%;
+  
+  height: 680px;
+    
+}
+
+.panel h1 {
+    
+  font-family: 'Readex Pro', sans-serif;
+  
+  text-align: center;
+  
+  font-size: 50px;
+  
+  margin-top: 40px;
+  
+  margin-bottom: 40px;
+    
+}
+
+.bold {
+    
+  position: relative;
+    
+  margin-left: 15px;
+    
+  font-family: 'Inter', sans-serif;
+  
+  font-size: 30px;
+
+  margin-right: 60%;
+    
+}
+
+.bol {
+    
+  position: absolute;
+    
+  font-family: 'Readex Pro', sans-serif;
+  
+  margin-top: 3px;
+    
+}
+
+.sub {
+    
+  position: absolute;
+    
+  margin-top: 50px;
+  
+  margin-left: -22px;
+  
+  border-radius: 5px;
+  
+  border: 2px solid #000000;
+  
+  font-family: 'Readex Pro', sans-serif;
+  
+  background-color: #fff;
+  
+  font-size: 20px;
+    
+}
+
+.inpp {
+    
+  width: 70%;
+  
+  margin-right: 25%;
+  
+  font-size: 20px;
+  
+  margin-left: 15px;
+  
+  margin-top: 5px;
+  
+  margin-bottom: 30px;
+  
+  border-radius: 5px;
+  
+  border: 2px solid #000000;
+    
+}
+
+.inppp {
+    
+  width: 20px;
+  
+  margin-left: 15px;
+  
+  height: 20px;
+    
+}
+
+.hrr {
+    
+  margin-bottom: 30px;
+    
+}
+
+.ic {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(Rubik-Regular.ttf);
+}
+
+.ic h1 {
+
+  position: relative;
+
+  font-size: 100px;
+
+  font-family: 'Fira Sans', sans-serif;
+
+  top: -480px;
+
+  color: rgb(255, 255, 255);
+
+}
+
+.ic img {
+
+  width: 100%;
+
+  margin-top: -63px;
+
+  height: 700px;
+
+}
+
+.footer {
+
+  border: 1px solid rgb(44, 44, 44);
+
+  background-color: rgb(44, 44, 44);
+
+  text-align: center;
+  
+  position: absolute;
+
+  bottom: 0px;
+
+  height: 40px;
+
+  margin-top: 2000px;
+
+}
+
+.vr {
+    
+  position: fixed;
+  
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 15px;
+  
+  bottom: 20px;
+  
+  right: 45px;
+  
+  font-weight: bold;
+  
+  border: solid 2px black;
+    
+}
+
+.footer p {
+
+  font-family: 'Source Code Pro', monospace;
+
+  font-size: 10px;
+
+  margin-top: 15px;
+
+  color: rgb(131, 131, 131);
+
+}

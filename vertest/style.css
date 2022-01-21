@@ -1,0 +1,530 @@
+body {
+
+background-color: #fff;
+
+}
+
+.menu ul {
+  list-style-type: none;
+
+  position: absolute;
+
+  overflow: hidden;
+
+  margin-top: 10px;
+
+  margin-right: 25px;
+
+  padding: 0;
+
+  right: 0px;
+
+  width: 80%;
+
+  background: transparent;
+}
+.menu ul li {
+  float: right;
+}
+
+.menu ul li a {
+  display: block;
+
+  padding: 6px 8px;
+
+  background: transparent;
+
+  border-radius: 10px;
+
+  color:rgb(0, 0, 0);
+
+  text-decoration:none;
+
+  font-family: 'Roboto Mono', monospace;
+
+  font-size: 15px;
+}
+.menu ul li a:hover{
+  background-color: #d3d3d3;
+}
+
+@font-face {
+  font-family: 'Aldrich';
+  src: url(Aldrich-Regular.ttf);
+}
+
+.logo b {
+  position: absolute;
+
+  font-family: 'Aldrich', sans-serif;
+
+  font-size: 25px;
+
+  margin-top: 10px;
+
+  margin-left: 15px;
+}
+
+.ic {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  position: absolute;
+  left: 0px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url(Rubik-Regular.ttf);
+}
+
+.ic h1 {
+
+  position: relative;
+
+  font-size: 100px;
+
+  font-family: 'Fira Sans', sans-serif;
+
+  top: -480px;
+
+  color: rgb(0, 0, 0);
+
+}
+
+.bld {
+
+  font-size: 75px;
+
+  font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.ktc img {
+    
+  border: transparent solid 0px;
+  
+  width: 80%;
+  
+  margin-left: 10%;
+  
+  margin-right: 10%;
+  
+  height: 600px;
+    
+}
+
+.ana {
+
+  width: 100%;
+
+  margin-top: -63px;
+
+  height: 700px;
+
+}
+
+.t1 {
+    
+  width: 45%;
+  
+  height: 320px;
+  
+  margin-right: 4%;
+  
+  position: absolute;
+  
+  top: 670px;
+  
+  right: 0px;
+  
+  border-radius: 20px;
+    
+}
+
+.hr {
+    
+  margin-top: 150px;
+  
+  margin-bottom: 30px;
+    
+}
+
+.hrr {
+    
+  margin-top: 700px;
+  
+  margin-bottom: 50px;
+    
+}
+
+.kdc {
+    
+  width: 150px;
+  
+  height: 40px;
+  
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 20px;
+  
+  border: black solid 2px;
+  
+  border-radius: 5px;
+  
+  margin-bottom: -40px;
+    
+}
+
+.kdc:hover {
+    
+  background-color: #cfcfcf;
+    
+}
+
+.yzz {
+    
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 25px;
+    
+  margin-left: 10%;
+  
+  margin-right: 10%;
+    
+}
+
+.issk{
+    
+  margin-top: 50px;
+    
+  width: 70%;
+  
+  margin-bottom: 38px;
+    
+}
+
+.drt {
+    
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 25px;
+    
+}
+
+.ynt1 {
+    
+  border: solid 2px black;
+  
+  border-radius: 7px;
+  
+  background-color: transparent;
+  
+  margin-top: 40px;
+  
+  margin-left: 7%;
+  
+  margin-right: 68%;
+  
+  width: 25%;
+  
+  height: 600px;
+  
+  position: absolute;
+    
+}
+
+.ynt2 {
+    
+  border: solid 2px black;
+  
+  border-radius: 7px;
+  
+  background-color: transparent;
+  
+  margin-top: 40px;
+  
+  margin-left: 37.5%;
+  
+  margin-right: 37.5%;
+  
+  width: 25%;
+  
+  height: 600px;
+  
+  position: absolute;
+    
+}
+
+.ynt3 {
+    
+  border: solid 2px black;
+  
+  border-radius: 7px;
+  
+  background-color: transparent;
+  
+  margin-top: 40px;
+  
+  margin-left: 68%;
+  
+  margin-right: 7%;
+  
+  width: 25%;
+  
+  height: 600px;
+  
+  position: absolute;
+    
+}
+
+.vr {
+    
+  position: fixed;
+  
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 25px;
+  
+  bottom: 20px;
+  
+  right: 20px;
+  
+  font-weight: bold;
+  
+  border: solid 3px #ab5500;
+  
+  border-radius: 7px;
+  
+  background-color: #eb8a2a;
+    
+}
+
+.ynt1 p {
+    
+  position: absolute;
+    
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 100%;
+  
+  margin-left: 10px;
+  
+  margin-right: 10px;
+  
+  text-align: left;
+  
+  font-weight: bold;
+    
+}
+
+.ynt2 p {
+    
+  position: absolute;
+    
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 100%;
+  
+  margin-left: 10px;
+  
+  margin-right: 10px;
+  
+  text-align: left;
+  
+  font-weight: bold;
+    
+}
+
+.ynt3 p {
+    
+  position: absolute;
+    
+  font-family: 'Roboto', sans-serif;
+  
+  font-size: 100%;
+  
+  margin-left: 10px;
+  
+  margin-right: 10px;
+  
+  text-align: left;
+  
+  font-weight: bold;
+    
+}
+
+@media screen and (max-width: 720px) {
+  
+  .hrr {
+    
+  margin-top: 1350px;
+    
+}
+
+  
+  .ynt1 {
+      
+      width: 60%;
+      
+      margin-left: 20%;
+      
+      margin-right: 20%;
+      
+  }
+  
+  .ynt2 {
+      
+      width: 60%;
+      
+      margin-left: 20%;
+      
+      margin-right: 20%;
+      
+      margin-top: 680px;
+      
+  }
+  
+  .ynt3 {
+      
+      width: 60%;
+      
+      margin-left: 20%;
+      
+      margin-right: 20%;
+      
+      margin-top: 1320px;
+      
+  }
+  
+  .hrr {
+    
+  margin-top: 1975px;
+    
+}
+  
+  .bir {
+
+  font-size: 25px;
+
+  font-family: 'Dosis', sans-serif;
+
+  margin-top: -190px;
+
+  margin-left: 4%;
+
+  margin-right: 4%;
+
+  margin-bottom: 60px;
+
+}
+
+.t1 {
+    
+  position: relative;
+  
+  top: 0px;
+  
+  width: 90%;
+  
+  margin-left: 5%;
+  
+  right: 0%;
+    
+}
+  
+}
+
+.uc {
+
+  margin-top: 80px;
+
+  font-size: 60px;
+
+  margin-bottom: 60px;
+
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.iki {
+
+  font-size: 25px;
+
+  font-family: 'Dosis', sans-serif;
+
+  margin-top: -35px;
+
+  margin-left: 4%;
+
+  margin-right: 48%;
+
+  margin-bottom: 60px;
+
+}
+
+.bir {
+
+  font-size: 25px;
+
+  font-family: 'Dosis', sans-serif;
+
+  margin-top: -190px;
+
+  margin-left: 4%;
+
+  margin-right: 53%;
+
+  margin-bottom: 60px;
+
+}
+
+* a {
+
+  text-decoration: none;
+  
+  cursor: pointer;
+  
+  color: #000000;
+  
+  font-weight: bold;
+
+}
+
+* a:hover {
+    
+  color: #4d4d4d;
+    
+}
+
+.footer {
+
+  border: 1px solid rgb(44, 44, 44);
+
+  background-color: rgb(44, 44, 44);
+
+  text-align: center;
+
+  bottom: 0px;
+
+  height: 40px;
+  
+  top: 0px;
+
+  margin-top: 85px;
+
+}
+
+.footer p {
+
+  font-family: 'Source Code Pro', monospace;
+
+  font-size: 10px;
+
+  margin-top: 15px;
+
+  color: rgb(131, 131, 131);
+
+}
